@@ -1,0 +1,19 @@
+{
+  "name": "wlacademy-qabackend",
+  "version": "1.0.0",
+  "description": "Assesment-02: Backend",
+  "main": "index.js",
+  "scripts": {
+    "test-newman": "npx newman run './todoist/tests/backend/collection/Todoist.json' -e './todoist/tests/backend/envVariables/QA.json' -r htmlextra --reporter-htmlextra-export './todoist/tests/backend/reports/report.html'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViriNapoles/wlacademy-qabackend.git"
+  },
+  "keywords": [],
+  "author": "Viri Napoles",
+  "license": "ISC",
+  "dependencies": {
+    "newman-reporter-htmlextra": "^1.20.1"
+  }
+}
