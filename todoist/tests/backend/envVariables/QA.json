@@ -1,0 +1,39 @@
+{
+	"id": "4b741ff3-c644-4239-a22c-3a4046332876",
+	"name": "QA",
+	"values": [
+		{
+			"key": "baseURL",
+			"value": "https://api.todoist.com/rest/v1",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "6cea87135192049df68257a3cffb753311beab9f",
+			"enabled": true
+		},
+		{
+			"key": "projectName",
+			"value": "Final project",
+			"enabled": true
+		},
+		{
+			"key": "projectId",
+			"value": 2261223195,
+			"enabled": true
+		},
+		{
+			"key": "taskId",
+			"value": 4674683367,
+			"enabled": true
+		},
+		{
+			"key": "taskContent",
+			"value": "Assesment-02",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2021-03-20T06:45:28.009Z",
+	"_postman_exported_using": "Postman/8.0.7"
+}
